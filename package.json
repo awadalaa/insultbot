@@ -1,14 +1,14 @@
 {
-  "name": "alaabot",
-  "main": "bot.js",
+  "name": "insultbot",
+  "author": "Alaa Awad",
   "version": "0.0.1",
-  "private":true,
+  "private": true,
   "description": "A Twitter bot because why not.",
+  "scripts": {
+    "start": "node ./server.js"
+  },
   "dependencies": {
-    "async": "^0.9.0",
-    "lodash": "^2.4.1",
-    "node-: "^1.4.1",
-    "twit": "^1.1.18",
-    "wordfilter": "^0.1.7"
+    "twitter": "^1.2.5",
+    "express": "^4.13.4"
   }
 }
