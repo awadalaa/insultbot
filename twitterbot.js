@@ -22,7 +22,7 @@ module.exports = {
                     }
                 }
             });
-        }, 90000); // 25 hours
+        }, 90000000); // 25 hours
     },
 
     getTwitterClient: function() {
